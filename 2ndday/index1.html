@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0; padding: 0;
+        }
+        body{
+            background-color: rgba(129, 150, 165, 0.447);
+        }
+        .navbar{
+            background-color: rgba(8, 164, 156, 0.945);
+            border-radius: 100px;
+            border-width: 5px;
+            border-style: solid;
+            margin-top: 15px;
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{
+            float:left;
+            margin: 13px 3px;
+            color:white
+        }
+        .navbar li a{
+            padding: 10px 10px;
+        }
+        ul{
+
+            list-style-type: none;
+        }
+        .center{
+            text-align: center;
+        }
+        h1{
+            color:darkgrey;
+            font-size: 50px;
+        }
+        img{
+            float: left;
+            border: 5px ;
+            margin-left: 5%;
+        }
+        div{
+            width:100%;
+         border: 0px solid green;
+         padding: 46px;
+         margin: 5px;
+        }
+        h3{
+            
+            background-color: black;
+            color: white;
+            
+        }
+        section{
+            max-width: 70%;
+            padding-left: 50px;
+        }
+        aside{
+            max-width: 30%;
+            float:right;
+            padding-left: 50px;
+        }
+        .prod{
+            max-width: 30%;
+        }
+        ol{
+            padding: 15px;
+        }
+        .photo{
+            background-color: rgb(211, 139, 139);
+            text-align: center;
+            
+        }
+        h2{
+            text-align: center;
+            margin-top: 100px;
+            padding: 100px;
+        }
+        .iframetag{
+            
+            width: 100%;
+            color: rgb(132, 127, 116);
+            margin: 10px;
+            padding-bottom: 100px;
+        }
+        .imgg{
+            width: 250px;
+            height: 250px;
+        }
+       
+    </style>
+</head>
+<body>
+    <header>
+        <img src="spark.jpg" alt="Spark eighteen logo" style="width: 90px; height: 100px;">
+        <h1 class="center"> Spark eighteen</h1>
+        <!-- <p class="center">This is Sparkeighteen</p> -->
+        <div>
+        <nav class="navbar">
+            <ul class="center">
+                <li> <a href="http://www.sparkeighteen.com" target="blank">Home</a></li>
+                <li><a href="#"></a>Services </li>
+                <li><a href="#"></a>About </li>
+                <li><a href="#"></a>Contact-Us </li>
+            </ul>
+
+        </nav>
+    </div>
+    </header>
+    <aside>
+        <h3 class="">Spark eighteen Intro</h3>
+        <video width="320" height="240" autoplay>
+            <source src="spark.mp4" type="video/mp4">
+          </video>
+    </aside>
+    <section>
+        <h3 class="">Who We Are</h3><br>
+       <p>A lean team of designers and developers fuelled by our love for new innovations and problem-solving. <br> By using design, data and technology, we help businesses build, grow and transform themselves.</p>
+    
+    </section>
+    
+    <div class="prod">
+        <h3>What we do</h3>
+        <ol type="1">
+            <li>Product Development</li>
+            <li>App Development</li>
+            <li>Remote Development</li>
+            <li>Web Development</li>
+            <li>DevOps</li>
+            <li>UI/UX Design</li>
+        </ol>
+    </div>
+    <div class="prod">
+        <h3>Entertainment</h3><br>
+        <p>Click on the play button to play a sound:</p>
+        <br>
+        <audio controls>
+            <source src="Squid.mp3" type="audio/mpeg">
+            <p>Your browser doesn't support HTML5 audio. Here is
+               a <a href="Squid.mp3">link to the audio</a> instead.</p>
+          </audio>
+
+    </div>
+  
+    <div class="gallery">
+        <h3 class="photo">Gallery</h3>
+        <br>
+        <img src="image/sp18-completes-10-year.jpg" alt="completes-10-year" class="imgg" >
+        <img src="image/how-to-turn-your-app-idea-into-reality.jpg" alt="idea" class="imgg">
+        <img src="image/building-a-website-for-business-in-7-days.jpg" alt="businesses sample" class="imgg" >
+        <img src="image/How-to-shortlist-a-suitable-web-development-company.jpg" alt="realview" class="imgg" >
+    </div>
+    <br>    <div class="iframetag">
+        <h2>Address</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.7007479260033!2d77.26534371468688!3d28.54871318245097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3ad65de113f%3A0x86ef029d79b16992!2sSpark%20Eighteen!5e0!3m2!1sen!2sin!4v1650371449841!5m2!1sen!2sin" width="1200" height="200" style="border: 20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+</body>
+</html>
