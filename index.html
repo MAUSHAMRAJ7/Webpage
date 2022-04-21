@@ -4,26 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sparkeighteen</title>
     <style>
+        *{
+            margin: 1; padding: 1;
+        }
+        body{
+            background-color: #d3d3d3b3;        }
     .center{
         text-align: center;
-        color: indianred;
+        color: rgb(138, 170, 176);
     }
-    /* div {
-  width: 100px;
-  border: 5px solid green;
-  padding: 50px;
-  margin: 20px;
-
-} */
+   
 h3 {
   background-color: black;
   color: white;
   padding:1% ;
-}
-.preg{
-    color: rgb(0, 112, 239);
 }
 aside{width: 40%;
     padding-left: .5rem;
@@ -33,28 +29,56 @@ aside{width: 40%;
     font-style: italic;
     color: #29627e;
 }
+img{
+    float:left;
+    margin-bottom: 10px;
+}
+div{
+    float: left;
+}
+.navbar{
+    background-color:coral
+    border: 10px;
+}
+.navbar li{
+    float:left;
+    list-style:none;
+    margin: 13px 20px;
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color:black
+}
     </style>
 </head>
 <body>
-    <header class="center"> Spark Eighteen</header>
-   <h1 class="center"> This is Spark Eighteen</h1>
+    <header> 
+        <!-- <img src="spark.jpg" alt="sparkeighteen logo" style="width: 100px; height: 100px;"> -->
+        <h1 class="center" ><img src="spark.jpg" alt="sparkeighteen logo" style="width: 100px; height: 120px; margin-left: 15px;"> Spark Eighteen</h1>
+        <p class="center">This is Spark Eighteen</p>
+        <nav class="navbar">
+            <ul style="list-style-type:circle">
+                <li><a href="https://www.sparkeighteen.com/" target="blank">Home</a></li>
+                <li><a href="https://www.sparkeighteen.com/contact-us/" target="blank">Contact-us</a></li>
+                <li><a href="https://www.sparkeighteen.com/about/" target="blank">About</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="/images/myw3schoolsimage.jpg" download="w3logo">
+                    <img src="/images/myw3schoolsimage.jpg" alt="W3Schools">
+                  </a></li>
+            </ul>
+        </nav>
+
+    </header>
+   <br><br>
    <section>
        <h3>Who We Are</h3>
        <p>A lean team of designers and developers fuelled by our love for new innovations and problem-solving. <br> By using design, data and technology, we help businesses build, grow and transform themselves.</p>
    </section>
-    </div>
-    <h3>know more Spark Eighteen</h3>
-       <ul >
-           <li>Home</li>
-           <li>Contact us</li>
-           <li>About</li>
-           <li>Careers</li>
-       </ul>
-    </div>
+   <br><br>
        <h3>What We Do</h3>
-       <p class="preg">Capabilities</p>
-       <div >
-        <ol>
+       <div>
+        <ol type="1">
             <li>Product Development</li>
             <li>App Development</li>
             <li>Remote Development</li>
@@ -64,11 +88,21 @@ aside{width: 40%;
         </ol>
        </div>
        
-       <aside>
+       <!-- <aside>
         <h3>Join Our Team!</h3>
 
         <p>Join a team that loves to explore, always sweats the details and never. <br>  Our goal is to build the most influential products, brands, and web experiences. If that sounds fun, and you thrive in an ambitious, free-thinking and fast-moving environment, you’ll probably fit right in here.</p>
+    </aside> -->
+    <aside>
+        <h3>Sparkeighteen Intro</h3>
+        <video width="320" height="240" controls>
+            <source src="spark.mp4" type="video/mp4">
+          </video>
     </aside>
+    <br>
+    
+
+
     
 </body>
 </html>

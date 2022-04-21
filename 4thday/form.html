@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: lightgray;
+            color: rgb(14, 5, 5);
+        }
+        .containner{
+            width: 400px;
+            max-width: 90%;
+            margin: 0 auto;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="containner">
+
+        <form action="" onsubmit="return myfun()" name="validate">
+            <div>
+            <label> Email:
+                <input type="text" name="emailid" id="emailid" placeholder="Enter email">
+            </label>
+           </div><br>
+           <div>
+            <label> Password
+                <input type="password" name="password" id="passwordid" palceholder="password">
+            </label>
+           </div><br>
+           <div>
+            <label >Phone
+                <input type="text" name="phone" id="phone">
+            </label>
+           </div><br>
+            <div>
+            <label >Gender:
+            <label >
+                <input type="radio" name="gender" value="male" checked>Male
+            </label>
+            <label><input type="radio" name="gender" value="female"></label>
+            </label>
+            </div><br>
+            <div>
+                <label >Sports play: <br>
+                    <label><input type="checkbox" name="hobbies" value="soccer" class="sprt"> Soccer</label>
+                    <label><input type="checkbox" name="hobbies" value="cricket" class="sprt"> Cricket</label>
+                    <label><input type="checkbox" name="hobbies" value="baseball" class="sprt"> Baseball</label>
+                    <label><input type="checkbox" name="hobbies" value="soccer" class="sprt"> Hockey</label>
+                    <label><input type="checkbox" name="hobbies" value="cricket" class="sprt"> Bedminton</label>
+                    <label><input type="checkbox" name="hobbies" value="baseball" class="sprt"> Carrom</label>
+                    <label><input type="checkbox" name="hobbies" value="soccer" class="sprt"> Swimming</label>
+                    <label><input type="checkbox" name="hobbies" value="cricket" class="sprt"> Chess</label>
+                    <label><input type="checkbox" name="hobbies" value="baseball" class="sprt"> Archery</label>
+                </label>
+            </div><br>
+            <div>
+                <label for="cars">Choose a car:</label>
+
+                <select name="cars" id="cars">
+                    <!-- <option></option> -->
+                  <option value="volvo">Volvo</option>
+                  <option value="saab">Saab</option>
+                  <option value="opel">Opel</option>
+                  <option value="audi">Audi</option>
+                  <option value="mahindra">Mahindra</option>
+                  <option value="tata">Tata</option>
+                  <option value="maruti">Maruti</option>
+                  <option value="kia">kia</option>
+                  <option value="honda">Honda</option>
+                  <option value="hundai">Hundai</option>
+                </select> 
+            </div>
+            <input type="submit" value="submit">
+        </form>
+    </div>
+    <script src="main.js"></script>
+    
+</body>
+</html>
